@@ -1,0 +1,9 @@
+*, *::before, *::after {
+  box-sizing: border-box;  
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #404040;
+  margin: 0;
+}
