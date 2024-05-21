@@ -1,13 +1,13 @@
-import Button from '@mui/material/Button';
 import './App.css'
+import { AppBar } from '@mui/material'
+import SearchAppBar from './components/Header/index1'
+import Header from './components/Header'
 
-function App() {
+export default function App() {
 
   return (
     <>
-      <Button variant="contained">Hello world</Button>
+      <Header />
     </>
   )
 }
-
-export default App
