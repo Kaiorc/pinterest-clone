@@ -1,30 +1,61 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Pinterest - Clone
+## Descrição
+Este projeto é uma aplicação de página única (SPA) desenvolvida em React, utilizando Vite como ferramenta de construção e JSON Server para simular uma API RESTful. O objetivo desta aplicação é fornecer uma interface interativa e dinâmica para os usuários, aproveitando a alta performance do Vite e a simplicidade do JSON Server para desenvolvimento.
 
-Currently, two official plugins are available:
+## Instalação
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Pré-requisitos
+- Node.js (versão 14 ou superior)
+- NPM ou Yarn
 
-## Expanding the ESLint configuration
+### Passos de Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Kaiorc/pinterest-clone.git
+   cd pinterest-clone
+   ```
+2.  Instale as dependências:
+	  ```bash
+	  npm install 
+	  # ou
+	  yarn install
+	```
+3. Inicie o JSON Server:
+	Dentro da pasta, rode o comando:
+	```bash
+	npx json-server ./mock/db.json
+	 ```
+4. Em outra aba do terminal, inicie o servidor de desenvolvimento do Vite:
+   ```bash
+   npm run dev
+   ```
+5. Ainda no terminal do servidor Vite:
+	Dê o comando `o` e pressione Enter, para que o navegador abra automaticamente na página da aplicação
+	Ou
+	Se quiser acessar manualmente, observe, no terminal com o servidor Vite, o endereço onde está aplicação, ele fica após "Local:", como em `➜  Local: http://localhost:XXXX/`
+	
+   ```bash
+     VITE vX.X.XX  ready in XXX ms
+	
+	  ➜  Local:   http://localhost:XXXX/
+	  ➜  Network: use --host to expose
+	  ➜  press h + enter to show help
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+## Screenshots
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Página Explorar
+![screenshot-ideas-page](https://github.com/Kaiorc/pinterest-clone/assets/76459361/f9ecab11-c8b0-4dca-b613-7872d52405c5)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Página Hoje
+![screenshot-today-page](https://github.com/Kaiorc/pinterest-clone/assets/76459361/db567c76-7ccc-4f65-a6ea-737c59a4a009)
+
+### Login
+
+## Melhorias
+
+### Funcionalidades Futuras
+
+-   **Teste Unitário e Integração:** Adicionar testes unitários e de integração para aumentar a confiabilidade do sistema.
