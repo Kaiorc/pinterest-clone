@@ -44,6 +44,9 @@ Este projeto é uma aplicação de página única (SPA) desenvolvida em React, u
 	  ➜  press h + enter to show help
    ```
 
+## Vídeo demo
+https://github.com/Kaiorc/pinterest-clone/assets/76459361/70094eaa-4232-452a-9386-ff155136170a
+
 ## Screenshots
 
 ### Página Explorar
@@ -53,6 +56,12 @@ Este projeto é uma aplicação de página única (SPA) desenvolvida em React, u
 ![screenshot-today-page](https://github.com/Kaiorc/pinterest-clone/assets/76459361/db567c76-7ccc-4f65-a6ea-737c59a4a009)
 
 ### Login
+![screenshot-login-page](https://github.com/Kaiorc/pinterest-clone/assets/76459361/d4b1c0e2-a1f4-4348-931f-27bcaaa2da4f)
+
+### Signin
+![screenshot-signin-page](https://github.com/Kaiorc/pinterest-clone/assets/76459361/42bfa6cf-007d-4845-956a-b1fb2f26bcf1)
+
+
 
 ## Melhorias
 
