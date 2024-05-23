@@ -3,6 +3,12 @@
 ## Descrição
 Este projeto é uma aplicação de página única (SPA) desenvolvida em React, utilizando Vite como ferramenta de construção e JSON Server para simular uma API RESTful. O objetivo desta aplicação é fornecer uma interface interativa e dinâmica para os usuários, aproveitando a alta performance do Vite e a simplicidade do JSON Server para desenvolvimento.
 
+## Inpiração
+https://br.pinterest.com/ideas/
+![image](https://github.com/Kaiorc/pinterest-clone/assets/76459361/2cf9e5b8-9f0d-4bee-ad44-887f33339c7e)
+https://br.pinterest.com/today/
+![image](https://github.com/Kaiorc/pinterest-clone/assets/76459361/cdd98edf-69f7-4e19-af17-97e4b435d1f0)
+
 ## Instalação
 
 ### Pré-requisitos
@@ -45,7 +51,9 @@ Este projeto é uma aplicação de página única (SPA) desenvolvida em React, u
    ```
 
 ## Vídeo demo
-https://github.com/Kaiorc/pinterest-clone/assets/76459361/70094eaa-4232-452a-9386-ff155136170a
+https://github.com/Kaiorc/pinterest-clone/assets/76459361/21d0a9f4-347f-457f-b815-5dbe8896aa9c
+
+
 
 ## Screenshots
 
