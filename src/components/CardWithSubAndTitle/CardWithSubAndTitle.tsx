@@ -10,8 +10,6 @@ interface CardWithSubAndTitleProps {
 
 export const CardWithSubAndTitle: React.FC<CardWithSubAndTitleProps> = ({ image, title, subtitle }) => {
 
-    const theme = useTheme();
-
     return (
     <CardActionArea>
         <Card sx={{ 

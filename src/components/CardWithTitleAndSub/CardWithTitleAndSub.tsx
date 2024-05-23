@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Card, CardActionArea, CardContent, Typography, useTheme } from "@mui/material";
+import { Box, Card, CardActionArea, CardContent, Typography } from "@mui/material";
 
 // Definindo a interface para as props
 interface CardWithTitleAndSubProps {
@@ -8,8 +8,6 @@ interface CardWithTitleAndSubProps {
 }
 
 export const CardWithTitleAndSub: React.FC<CardWithTitleAndSubProps> = ({ image, title }) => {
-
-    const theme = useTheme();
 
     return (
     <CardActionArea>
