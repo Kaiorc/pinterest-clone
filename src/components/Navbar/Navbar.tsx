@@ -148,7 +148,7 @@ export const MuiNavbar = () => {
           </Box>
         </DialogContent>
         <DialogActions sx={{ justifyContent: 'center', marginBottom: '1em' }}>
-        <Button onClick={handleSigninClose} sx={{ border: "none", borderRadius: 10, boxShadow: "none" }}>
+        <Button onClick={handleLoginClose} sx={{ border: "none", borderRadius: 10, boxShadow: "none" }}>
           Cancelar
         </Button>
         <Button variant="contained" color="primary" sx={{ border: "none", borderRadius: 10, boxShadow: "none" }}>
