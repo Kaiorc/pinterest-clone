@@ -167,9 +167,9 @@ export const MuiNavbar = () => {
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
             <TextField
               margin="dense"
-              id="text"
+              id="name"
               label="Nome"
-              type="password"
+              type="text"
               sx={{ marginBottom: 2, width: '70%' }}
             />
             <TextField
@@ -190,7 +190,7 @@ export const MuiNavbar = () => {
             />
             <TextField
               margin="dense"
-              id="password"
+              id="confirmpassword"
               label="Confirme sua senha"
               type="password"
               sx={{ width: '70%' }}
