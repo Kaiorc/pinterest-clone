@@ -148,10 +148,12 @@ export const MuiNavbar = () => {
           </Box>
         </DialogContent>
         <DialogActions sx={{ justifyContent: 'center', marginBottom: '1em' }}>
-          <Button onClick={handleLoginClose}>Cancelar</Button>
-          <Button variant="contained" color="primary">
-            Entrar
-          </Button>
+        <Button onClick={handleSigninClose} sx={{ border: "none", borderRadius: 10, boxShadow: "none" }}>
+          Cancelar
+        </Button>
+        <Button variant="contained" color="primary" sx={{ border: "none", borderRadius: 10, boxShadow: "none" }}>
+          Entrar
+        </Button>
         </DialogActions>
       </Dialog>
       <Dialog open={showSignin} onClose={handleSigninClose}>
@@ -199,8 +201,10 @@ export const MuiNavbar = () => {
           </Box>
         </DialogContent>
         <DialogActions sx={{ justifyContent: 'center', marginBottom: '1em' }}>
-          <Button onClick={handleSigninClose}>Cancelar</Button>
-          <Button variant="contained" color="primary">
+          <Button onClick={handleSigninClose} sx={{ border: "none", borderRadius: 10, boxShadow: "none" }}>
+            Cancelar
+          </Button>
+          <Button variant="contained" color="primary" sx={{ border: "none", borderRadius: 10, boxShadow: "none" }}>
             Entrar
           </Button>
         </DialogActions>
