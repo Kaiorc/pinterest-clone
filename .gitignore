@@ -25,3 +25,6 @@ dist-ssr
 
 # Ignore MenuLateral directory
 MenuLateral/
+
+# Ignore Header directory
+Header/
