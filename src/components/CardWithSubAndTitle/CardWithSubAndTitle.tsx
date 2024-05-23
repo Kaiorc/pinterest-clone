@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Card, CardActionArea, CardContent, Typography, useTheme } from "@mui/material";
+import { Box, Card, CardActionArea, CardContent, Typography } from "@mui/material";
 
 // Definindo a interface para as props
 interface CardWithSubAndTitleProps {
