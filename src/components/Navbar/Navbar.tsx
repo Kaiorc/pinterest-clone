@@ -8,7 +8,13 @@ import {
   Menu,
   MenuItem,
   Box,
-  useTheme
+  useTheme,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  TextField,
+  Typography,
 } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Searchbar } from '../Searchbar/Searchbar';
@@ -19,6 +25,9 @@ export const MuiNavbar = () => {
   const theme = useTheme();
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const [showLogin, setShowLogin] = useState(false);
+  const [showSignin, setShowSignin] = useState(false);
+
   const open = Boolean(anchorEl);
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -31,6 +40,22 @@ export const MuiNavbar = () => {
 
   const handleImageClick = () => {
     console.log('Image clicked');
+  };
+
+  const handleLoginOpen = () => {
+    setShowLogin(true);
+  };
+
+  const handleLoginClose = () => {
+    setShowLogin(false);
+  };
+
+  const handleSigninOpen = () => {
+    setShowSignin(true);
+  };
+
+  const handleSigninClose = () => {
+    setShowSignin(false);
   };
 
   return (
@@ -55,10 +80,10 @@ export const MuiNavbar = () => {
           </Box>
           <Searchbar />
           <Stack direction='row' spacing={2} >
-            <Button variant="contained" color='secondary' size='large' sx={{ border: "none", borderRadius: 10, boxShadow: "none" }}>
+            <Button variant="contained" color='secondary' size='large' sx={{ border: "none", borderRadius: 10, boxShadow: "none" }} onClick={handleLoginOpen}>
               Entrar
             </Button>
-            <Button variant="contained" color='primary' size='large' sx={{ border: "none", borderRadius: 10, boxShadow: "none" }}>
+            <Button variant="contained" color='primary' size='large' sx={{ border: "none", borderRadius: 10, boxShadow: "none" }} onClick={handleSigninOpen}>
               Criar Conta
             </Button>
           </Stack>
@@ -92,6 +117,94 @@ export const MuiNavbar = () => {
           </Menu>
         </Toolbar>
       </AppBar>
+      <Dialog open={showLogin} onClose={handleLoginClose}>
+        <DialogTitle align='center' marginTop={'1em'}>
+          <Box display="flex" justifyContent="center" marginBottom={'1em'}>
+            <img src="src\assets\pinterest.svg" width={"200px"} alt="Pinterest Logo" />
+          </Box>
+          Entre na sua conta
+        </DialogTitle>
+        <DialogContent>
+          <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
+            <TextField
+              autoFocus
+              margin="dense"
+              id="email"
+              label="Email"
+              type="email"
+              fullWidth
+              sx={{ marginBottom: 2, width: '50%'}}
+            />
+            <TextField
+              margin="dense"
+              id="password"
+              label="Senha"
+              type="password"
+              sx={{ width: '50%' }}
+            />
+            <Typography variant='subtitle2' align='center' marginTop={'1em'} width={'70%'}>
+            Ao continuar, você concorda com os Termos de Serviço do Pinterest e confirma que leu a Política de Privacidade. 
+            </Typography>
+          </Box>
+        </DialogContent>
+        <DialogActions sx={{ justifyContent: 'center', marginBottom: '1em' }}>
+          <Button onClick={handleLoginClose}>Cancelar</Button>
+          <Button variant="contained" color="primary">
+            Entrar
+          </Button>
+        </DialogActions>
+      </Dialog>
+      <Dialog open={showSignin} onClose={handleSigninClose}>
+        <DialogTitle align='center' marginTop={'1em'}>
+          <Box display="flex" justifyContent="center" marginBottom={'1em'}>
+            <img src="src\assets\pinterest.svg" width={"200px"} alt="Pinterest Logo" />
+          </Box>
+          Crie sua conta
+        </DialogTitle>
+        <DialogContent>
+          <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
+            <TextField
+              margin="dense"
+              id="text"
+              label="Nome"
+              type="password"
+              sx={{ marginBottom: 2, width: '70%' }}
+            />
+            <TextField
+              autoFocus
+              margin="dense"
+              id="email"
+              label="Email"
+              type="email"
+              fullWidth
+              sx={{ marginBottom: 2, width: '70%'}}
+            />
+            <TextField
+              margin="dense"
+              id="password"
+              label="Senha"
+              type="password"
+              sx={{ marginBottom: 2, width: '70%' }}
+            />
+            <TextField
+              margin="dense"
+              id="password"
+              label="Confirme sua senha"
+              type="password"
+              sx={{ width: '70%' }}
+            />
+            <Typography variant='subtitle2' align='center' marginTop={'1em'} width={'70%'}>
+            Ao continuar, você concorda com os Termos de Serviço do Pinterest e confirma que leu a Política de Privacidade. 
+            </Typography>
+          </Box>
+        </DialogContent>
+        <DialogActions sx={{ justifyContent: 'center', marginBottom: '1em' }}>
+          <Button onClick={handleSigninClose}>Cancelar</Button>
+          <Button variant="contained" color="primary">
+            Entrar
+          </Button>
+        </DialogActions>
+      </Dialog>
     </Box>
   );
 };
