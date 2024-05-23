@@ -7,14 +7,12 @@ import {
   Stack,
   Menu,
   MenuItem,
-  TextField,
   Box,
-  InputAdornment,
-  styled,
   useTheme
 } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Searchbar } from '../Searchbar/Searchbar';
+import { Link } from 'react-router-dom';
 
 export const MuiNavbar = () => {
 
@@ -40,9 +38,11 @@ export const MuiNavbar = () => {
       <AppBar position='sticky' sx={{ backgroundColor: theme.palette.background.default, }}>
         <Toolbar>
           <Box display="flex" justifyContent={"space-between"} alignItems={"center"}>
-              <IconButton onClick={handleImageClick} sx={{ padding: 0 }}>
-                  <img src="src\assets\pinterest.svg" width={"140px"} />
-              </IconButton>
+              <Link to='/ideas' style={{ textDecoration: 'none' }}>
+                <IconButton onClick={handleImageClick} sx={{ padding: 0 }}>
+                    <img src="src\assets\pinterest.svg" width={"140px"} />
+                </IconButton>
+              </Link>
             <Button
               color='secondary'
               variant='contained'
@@ -79,8 +79,16 @@ export const MuiNavbar = () => {
               'aria-labelledby': 'options-button',
             }}
           >
-            <MenuItem onClick={handleClose}>Hoje</MenuItem>
-            <MenuItem onClick={handleClose}>Explorar</MenuItem>
+            <Link to='/ideas' style={{ textDecoration: 'none', color:'inherit' }}>
+              <MenuItem onClick={handleClose}>
+                Explorar
+              </MenuItem>
+            </Link>
+            <Link to='/today' style={{ textDecoration: 'none', color:'inherit' }}>
+              <MenuItem onClick={handleClose}>
+                Hoje
+              </MenuItem>
+            </Link>
           </Menu>
         </Toolbar>
       </AppBar>

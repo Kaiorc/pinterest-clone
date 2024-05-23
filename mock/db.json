@@ -1,0 +1,109 @@
+{
+    "exploreSectionImages": [
+        {
+            "id": 1,
+            "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Decoração"
+        },
+        {
+            "id": 2,
+            "image": "https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Natureza"
+        },
+        {
+            "id": 3,
+            "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Pets"
+        }
+    ],
+    "discoverSectionImages": [
+        {
+            "id": 1,
+            "image": "https://images.unsplash.com/photo-1559666126-84f389727b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTUxMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0MjA5NTV8&ixlib=rb-4.0.3&q=80&w=1080",
+            "title": "Paisagens"
+        },
+        {
+            "id": 2,
+            "image": "https://images.unsplash.com/photo-1560830906-9c1c207e2599?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTUxMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0MjEwNTB8&ixlib=rb-4.0.3&q=80&w=1080",
+            "title": "Arte"
+        },
+        {
+            "id": 3,
+            "image": "https://images.unsplash.com/photo-1548777123-e216912df7d8?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Estações"
+        },
+        {
+            "id": 4,
+            "image": "https://images.unsplash.com/photo-1559703248-dcaaec9fab78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTUxMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0MjEyNTN8&ixlib=rb-4.0.3&q=80&w=1080",
+            "title": "Sobremesas"
+        },
+        {
+            "id": 5,
+            "image": "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Fotografia"
+        },
+        {
+            "id": 6,
+            "image": "https://images.unsplash.com/photo-1492534513006-37715f336a39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Animais"
+        },
+        {
+            "id": 7,
+            "image": "https://images.unsplash.com/photo-1539375665275-f9de415ef9ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTUxMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0MjIzNjR8&ixlib=rb-4.0.3&q=80&w=1080",
+            "title": "Música"
+        },
+        {
+            "id": 8,
+            "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Retro"
+        },
+        {
+            "id": 9,
+            "image": "https://images.unsplash.com/photo-1583482183620-f692113aafc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTUxMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0MjI1NDN8&ixlib=rb-4.0.3&q=80&w=1080",
+            "title": "Teatro"
+        },
+        {
+            "id": 10,
+            "image": "https://images.unsplash.com/photo-1565058379802-bbe93b2f703a?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Tatoo"
+        }
+    ],
+    "inspireSectionImages": [
+        {
+            "id": 1,
+            "image": "https://images.unsplash.com/photo-1578301978961-a526d6fb0d54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTUxMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0MzY4MTF8&ixlib=rb-4.0.3&q=80&w=1080",
+            "title": "Pinturas Famosas",
+            "subtitle": "Pinturas em óleo famosas"
+        },
+        {
+            "id": 2,
+            "image": "https://images.unsplash.com/photo-1591561582301-7ce6588cc286?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTUxMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc1MTJ8&ixlib=rb-4.0.3&q=80&w=1080",
+            "title": "Coelhos Fofinhos",
+            "subtitle": "Animais fofos"
+        },
+        {
+            "id": 3,
+            "image": "https://images.unsplash.com/photo-1589108447715-19b681f5c4a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTUxMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc2OTV8&ixlib=rb-4.0.3&q=80&w=1080",
+            "title": "Cortes",
+            "subtitle": "Corte cabelo curto mulher"
+        },
+        {
+            "id": 4,
+            "image": "https://images.unsplash.com/photo-1559703248-dcaaec9fab78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTUxMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0MjEyNTN8&ixlib=rb-4.0.3&q=80&w=1080",
+            "title": "Sobremesas",
+            "subtitle": "Sorvetes"
+        },
+        {
+            "id": 5,
+            "image": "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Fotografia colorida",
+            "subtitle": "Foto fundo colorido"
+        },
+        {
+            "id": 6,
+            "image": "https://images.unsplash.com/photo-1492534513006-37715f336a39?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
+            "title": "Animais da savana",
+            "subtitle": "Girafa golden hour"
+        }
+    ]
+}
