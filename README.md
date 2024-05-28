@@ -3,7 +3,14 @@
 ## Descrição
 Este projeto é uma aplicação de página única (SPA) desenvolvida em React, utilizando Vite como ferramenta de construção e JSON Server para simular uma API RESTful. O objetivo desta aplicação é fornecer uma interface interativa e dinâmica para os usuários, aproveitando a alta performance do Vite e a simplicidade do JSON Server para desenvolvimento.
 
-## Inpiração
+## Online
+Acesse em:
+https://pinterest-clone-for-deploy.netlify.app
+e
+https://pinterest-clone-test-for-deploy.onrender.com
+> Por limitações da plataforma onde o webservice da API de imagens foi hospedado, é possível que as imagens não apareçam de imediato. Elas poderão aparecer em 50 segundos.
+
+## Inspiração
 https://br.pinterest.com/ideas/
 ![image](https://github.com/Kaiorc/pinterest-clone/assets/76459361/2cf9e5b8-9f0d-4bee-ad44-887f33339c7e)
 https://br.pinterest.com/today/
